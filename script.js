@@ -70,10 +70,11 @@ array2.shift()
 
 
 var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
-var arr2=arr1.sort()
+arr1.sort();
+arr1.splice(0, 2, -4, -3)
 
 
-console.log(arr2)
+console.log(arr1)
 
 
  
